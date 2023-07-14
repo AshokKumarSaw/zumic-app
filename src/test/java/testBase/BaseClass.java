@@ -64,7 +64,7 @@ public class BaseClass {
 	public void tearDown() {
 		 driver.quit();
 		 
-		// System.out.println("Checking commit........");
+		
 	}
 
 	public String randomString() {
