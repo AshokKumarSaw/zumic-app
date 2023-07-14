@@ -16,14 +16,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>master.xml</suiteXmlFile>
-							<!-- 	  <suiteXmlFile>grouping.xml</suiteXmlFile>-->
-							<!--
-							<suiteXmlFile>dataDrivenTest.xml</suiteXmlFile>-->
-							<!--
-							<suiteXmlFile>crossbrowserTest.xml</suiteXmlFile>-->
-
 						</suiteXmlFiles>
-						<!-- put your configurations here -->
 					</configuration>
 				</plugin>
 				<plugin>
