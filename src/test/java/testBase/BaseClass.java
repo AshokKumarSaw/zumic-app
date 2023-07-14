@@ -63,6 +63,8 @@ public class BaseClass {
 	@AfterClass(groups = { "sanity", "master", "regression" })
 	public void tearDown() {
 		 driver.quit();
+		 
+		// System.out.println("Checking commit........");
 	}
 
 	public String randomString() {
