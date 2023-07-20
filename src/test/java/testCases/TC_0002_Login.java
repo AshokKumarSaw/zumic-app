@@ -20,8 +20,11 @@ public class TC_0002_Login extends BaseClass{
 		homePage.clickLoginRegister();
 		LoginPage loginPage=new LoginPage(driver);
 		logger.info("Entering valid credentials to Login"); 
-		loginPage.setLoginEmail(rb.getString("email"));
-		loginPage.setLoginPassword(rb.getString("password"));
+	//	loginPage.setLoginEmail(rb.getString("email"));
+		loginPage.setLoginEmail(properties.getProperty("email"));
+	//	loginPage.setLoginPassword(rb.getString("password"));
+		loginPage.setLoginPassword(properties.getProperty("password"));
+		logger.info("email and password entered sucessfully"); 
 		loginPage.clickBtnLogin();
 		logger.info("Clicked on Login Button"); 
 		MyAccountPage myAccountPage= new MyAccountPage(driver);

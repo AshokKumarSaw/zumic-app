@@ -1,10 +1,13 @@
 package testBase;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.Properties;
 import java.util.ResourceBundle;
 
 import org.apache.commons.io.FileUtils;
@@ -22,29 +25,41 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import dev.failsafe.internal.util.Durations;
+
 public class BaseClass {
 	public static WebDriver driver;
 	public Logger logger;
-	public ResourceBundle rb;
-
+//	public ResourceBundle rb;
+	
+	public Properties properties;
+	
 	@BeforeClass(groups = { "sanity", "master", "regression" })
 	@Parameters("browser")
-	public void setup(String br) {
+	public void setup(String br) throws IOException {
 		logger = LogManager.getLogger(this.getClass());
-		rb = ResourceBundle.getBundle("config"); // To read data from config.properties file
+	//	rb = ResourceBundle.getBundle("config"); // To read data from config.properties file
 
+		File file = new File(".\\src\\test\\resources\\config.properties");
+		FileInputStream fileInputStream = new FileInputStream(file);
+		Properties properties = new Properties();
+		properties.load(fileInputStream);
+		
+		
 		/*
 		 * ChromeOptions options = new ChromeOptions();
 		 * options.setExperimentalOption("excludeSwitches", new String[] {
 		 * "enable-automation" }); driver = new ChromeDriver(options);
 		 */
 
+		
 		/*
 		 * ChromeOptions options = new ChromeOptions();
 		 * options.setAcceptInsecureCerts(true); driver = new ChromeDriver(options);
 		 */
-
+		 
 		
+	
 
 		if (br.equals("chrome")) {
 			driver = new ChromeDriver();
@@ -55,16 +70,16 @@ public class BaseClass {
 		}
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(rb.getString("applicationUrl"));
+	//	driver.get(rb.getString("applicationUrl"));
+		driver.get(properties.getProperty("applicationUrl"));
 		driver.manage().window().maximize();
 
 	}
 
 	@AfterClass(groups = { "sanity", "master", "regression" })
 	public void tearDown() {
-		 driver.quit();
-		 
-		
+		driver.quit();
+
 	}
 
 	public String randomString() {
