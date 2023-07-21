@@ -11,8 +11,8 @@
 			<run>
 
 				<!--<include name="master"></include>-->
-				 <!--	<include name="sanity"></include> -->
-	              <include name="regression"></include> 
+				 	<include name="sanity"></include> 
+	           <!--   <include name="regression"></include> -->
 	
 <!-- 	<exclude name="master"></exclude> -->
 <!--	<exclude name="sanity"></exclude> -->

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 67.87 s <<< FAILURE! -- in TestSuite
-testCases.TC_0001_Register.testRegistration -- Time elapsed: 14.29 s <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 53.53 s <<< FAILURE! -- in TestSuite
+testCases.TC_0001_Register.testRegistration -- Time elapsed: 15.19 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
@@ -40,11 +40,11 @@ java.lang.AssertionError: null
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testCases.TC_0002_Login.testLogin -- Time elapsed: 13.91 s <<< FAILURE!
+testCases.TC_0002_Login.testLogin -- Time elapsed: 3.146 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC_0002_Login.testLogin(TC_0002_Login.java:35)
+	at testCases.TC_0002_Login.testLogin(TC_0002_Login.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

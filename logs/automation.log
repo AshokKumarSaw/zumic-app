@@ -1,38 +1,22 @@
-10:49:10.108 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-10:49:25.082 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-10:49:37.765 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-10:49:51.312 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-10:50:04.071 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-10:55:49.157 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-10:58:16.713 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-10:59:39.513 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-11:12:33.845 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-11:12:48.697 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-11:13:01.429 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-11:13:14.800 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-11:13:28.494 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-12:52:29.370 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-12:52:44.827 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-12:52:58.252 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-12:53:10.918 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-12:53:23.558 [main] INFO  testCases.TC_0003_LoginDDT - *** Starting TC_0003_LoginDDT ***
-15:55:14.785 [main] INFO  testCases.TC_0001_Register - *** Starting TC_0001_Register ***
-15:55:18.814 [main] INFO  testCases.TC_0001_Register - Clicked on Login/Regisetr Link
-15:55:19.134 [main] INFO  testCases.TC_0001_Register - Clicked on Register Tab
-15:55:19.165 [main] INFO  testCases.TC_0001_Register - Entering user details for Registration
-15:55:20.119 [main] INFO  testCases.TC_0001_Register - Clicked on Register button
-15:55:20.119 [main] INFO  testCases.TC_0001_Register - Validating successful Registration message
-15:55:30.198 [main] ERROR testCases.TC_0001_Register -  Registration Test Failed
-15:55:42.688 [main] INFO  testCases.TC_0002_Login - *** Starting TC_0002_Login ***
-15:55:46.235 [main] INFO  testCases.TC_0002_Login - Entering valid credentials to Login
-15:55:46.677 [main] INFO  testCases.TC_0002_Login - Clicked on Login Button
-16:24:25.184 [main] INFO  testCases.TC_0001_Register - *** Starting TC_0001_Register ***
-16:24:28.301 [main] INFO  testCases.TC_0001_Register - Clicked on Login/Regisetr Link
-16:24:28.451 [main] INFO  testCases.TC_0001_Register - Clicked on Register Tab
-16:24:28.537 [main] INFO  testCases.TC_0001_Register - Entering user details for Registration
-16:24:28.784 [main] INFO  testCases.TC_0001_Register - Clicked on Register button
-16:24:28.784 [main] INFO  testCases.TC_0001_Register - Validating successful Registration message
-16:24:39.083 [main] ERROR testCases.TC_0001_Register -  Registration Test Failed
-16:24:52.763 [main] INFO  testCases.TC_0002_Login - *** Starting TC_0002_Login ***
-16:24:56.025 [main] INFO  testCases.TC_0002_Login - Entering valid credentials to Login
-16:24:56.306 [main] INFO  testCases.TC_0002_Login - Clicked on Login Button
+01:47:00.422 [main] INFO  testCases.TC_0001_Register - *** Starting TC_0001_Register ***
+01:47:03.844 [main] INFO  testCases.TC_0001_Register - Clicked on Login/Regisetr Link
+01:47:03.929 [main] INFO  testCases.TC_0001_Register - Clicked on Register Tab
+01:47:03.930 [main] INFO  testCases.TC_0001_Register - Entering user details for Registration
+01:47:04.277 [main] INFO  testCases.TC_0001_Register - Clicked on Register button
+01:47:04.277 [main] INFO  testCases.TC_0001_Register - Validating successful Registration message
+01:47:14.346 [main] ERROR testCases.TC_0001_Register -  Registration Test Failed
+01:47:25.114 [main] INFO  testCases.TC_0002_Login - *** Starting TC_0002_Login ***
+01:47:27.601 [main] INFO  testCases.TC_0002_Login - Entering valid credentials to Login
+01:55:03.098 [main] INFO  testCases.TC_0002_Login - *** Starting TC_0002_Login ***
+01:55:05.705 [main] INFO  testCases.TC_0002_Login - Entering valid credentials to Login
+01:57:48.998 [main] INFO  testCases.TC_0002_Login - *** Starting TC_0002_Login ***
+01:57:52.082 [main] INFO  testCases.TC_0002_Login - Entering valid credentials to Login
+03:11:06.365 [main] INFO  testCases.TC_0001_Register - *** Starting TC_0001_Register ***
+03:11:10.424 [main] INFO  testCases.TC_0001_Register - Clicked on Login/Regisetr Link
+03:11:10.588 [main] INFO  testCases.TC_0001_Register - Clicked on Register Tab
+03:11:10.616 [main] INFO  testCases.TC_0001_Register - Entering user details for Registration
+03:11:10.932 [main] INFO  testCases.TC_0001_Register - Clicked on Register button
+03:11:10.932 [main] INFO  testCases.TC_0001_Register - Validating successful Registration message
+03:11:21.132 [main] ERROR testCases.TC_0001_Register -  Registration Test Failed
+03:11:34.379 [main] INFO  testCases.TC_0002_Login - *** Starting TC_0002_Login ***
+03:11:37.384 [main] INFO  testCases.TC_0002_Login - Entering valid credentials to Login

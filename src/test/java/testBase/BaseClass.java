@@ -30,7 +30,7 @@ import dev.failsafe.internal.util.Durations;
 public class BaseClass {
 	public static WebDriver driver;
 	public Logger logger;
-//	public ResourceBundle rb;
+	public ResourceBundle rb;
 	
 	public Properties properties;
 	
@@ -38,13 +38,13 @@ public class BaseClass {
 	@Parameters("browser")
 	public void setup(String br) throws IOException {
 		logger = LogManager.getLogger(this.getClass());
-	//	rb = ResourceBundle.getBundle("config"); // To read data from config.properties file
+		rb = ResourceBundle.getBundle("config"); // To read data from config.properties file
 
-		File file = new File(".\\src\\test\\resources\\config.properties");
-		FileInputStream fileInputStream = new FileInputStream(file);
-		Properties properties = new Properties();
-		properties.load(fileInputStream);
-		
+		/*
+		 * File file = new File(".\\src\\test\\resources\\config.properties");
+		 * FileInputStream fileInputStream = new FileInputStream(file); Properties
+		 * properties = new Properties(); properties.load(fileInputStream);
+		 */
 		
 		/*
 		 * ChromeOptions options = new ChromeOptions();

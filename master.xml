@@ -5,9 +5,8 @@
   <test thread-count="5" name="zumicTest">
 <parameter name="browser" value="chrome"></parameter>
     <classes>
-  <class name="testCases.TC_0001_Register"/> 
-    <class name="testCases.TC_0002_Login"/> 
-     
+    <class name="testCases.TC_0001_Register"/> 
+    <class name="testCases.TC_0002_Login"/>  
     </classes>
   </test> 
 </suite> 

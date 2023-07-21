@@ -6,14 +6,19 @@
   </listeners>
   <test thread-count="5" name="zumicTest(failed)">
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.TC_0003_LoginDDT">
+      <class name="testCases.TC_0002_Login">
         <methods>
-          <include name="testLoginDDT" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="testLogin"/>
         </methods>
-      </class> <!-- testCases.TC_0003_LoginDDT -->
+      </class> <!-- testCases.TC_0002_Login -->
     </classes>
   </test> <!-- zumicTest(failed) -->
 </suite> <!-- Failed suite [zumicSuite] -->
