@@ -1,8 +1,6 @@
 package testBase;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -18,14 +16,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-
-import dev.failsafe.internal.util.Durations;
 
 public class BaseClass {
 	public static WebDriver driver;
@@ -70,8 +65,8 @@ public class BaseClass {
 		}
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	//	driver.get(rb.getString("applicationUrl"));
-		driver.get(properties.getProperty("applicationUrl"));
+		driver.get(rb.getString("applicationUrl"));
+		//driver.get(properties.getProperty("applicationUrl"));
 		driver.manage().window().maximize();
 
 	}
