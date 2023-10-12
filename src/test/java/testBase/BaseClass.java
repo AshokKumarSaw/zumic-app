@@ -26,7 +26,6 @@ public class BaseClass {
 	public static WebDriver driver;
 	public Logger logger;
 	public ResourceBundle rb;
-	
 	public Properties properties;
 	
 	@BeforeClass(groups = { "sanity", "master", "regression" })
@@ -84,7 +83,7 @@ public class BaseClass {
 
 	public String randomNumber() {
 		String generatedNumber = RandomStringUtils.randomNumeric(10);
-		return generatedNumber;
+  		return generatedNumber;
 	}
 
 	public String randomAlphaNumeric() {
